@@ -85,6 +85,9 @@ export class Products extends Component {
                 </div>
               ))}
             </div>
+            <div className="content__btn">
+              <button>Learn More</button>
+            </div>
           </div>
         </div>
       </section>

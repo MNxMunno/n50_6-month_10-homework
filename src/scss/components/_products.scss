@@ -116,6 +116,28 @@
         }
       }
     }
+    .content__btn {
+      width: 152px;
+      margin: auto;
+      padding-top: 50px;
+      button {
+        border: 1px solid #dc770b3f;
+        padding: 12px 30px;
+        color: #dc780b;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        text-align: left;
+        transition: 0.2s;
+        border-radius: 8px;
+        &:hover {
+          background: #dc780b;
+          border: 1px solid #dc770b;
+          color: #fff;
+        }
+      }
+    }
   }
   @media only screen and (max-width: 1180px) {
     .content {
