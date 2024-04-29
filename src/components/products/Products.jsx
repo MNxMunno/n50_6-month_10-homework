@@ -28,7 +28,7 @@ const data = [
   },
   {
     id: 4,
-    title: "Delmonico Steak dish",
+    title: "Delonico Steak dish",
     info: "There are many things are needed to start the Fast Food Business.",
     price: 14,
     rating: 2,
@@ -51,6 +51,7 @@ const data = [
     img: "https://i.postimg.cc/4x8jMvZb/pro-6.png",
   },
 ];
+// console.log(data);
 
 export class Products extends Component {
   render() {
@@ -77,9 +78,7 @@ export class Products extends Component {
                     <p>{el.info}</p>
                     <div className="btns">
                       <button className="plus">+</button>
-                      <div className="stars">
-                        {new Array(Math.round(el.rating)).fill(<IoStar />)}
-                      </div>
+                      <div className="stars">⭐{el.rating}</div>
                     </div>
                   </div>
                 </div>

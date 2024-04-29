@@ -1,0 +1,58 @@
+.contact {
+  background: #dc770b2c;
+  padding: 115px 0;
+  .content {
+    p {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18.75px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      color: #dc780b;
+    }
+    h2 {
+      max-width: 749px;
+      margin: auto;
+      padding: 15px 0 46px;
+      font-family: Philosopher;
+      font-size: 31.25px;
+      font-weight: 700;
+      line-height: 40.6px;
+      text-align: center;
+      color: #150c01;
+    }
+    form {
+      display: grid;
+      grid-template-columns: 0.6fr 0.1fr;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      input {
+        outline: none;
+        padding: 20px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 40.6px;
+        text-align: left;
+        color: #150c01;
+        border: 0;
+        border-radius: 8px;
+      }
+      button {
+        position: absolute;
+        border-radius: 8px;
+        background: #dc780b;
+        padding: 20px 57px;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 40.6px;
+        text-align: center;
+        color: #fff;
+        right: 150px;
+      }
+    }
+  }
+}

@@ -3,6 +3,8 @@ import Hero from "../hero/Hero";
 import Feature from "../feature/Feature";
 import About from "../about/About";
 import Products from "../products/Products";
+import Testimonial from "../testimonial/Testimonial";
+import Contact from "../contact/Contact";
 
 export class Main extends Component {
   render() {
@@ -12,6 +14,8 @@ export class Main extends Component {
         <Feature />
         <About />
         <Products />
+        <Testimonial />
+        <Contact />
       </main>
     );
   }
