@@ -1,0 +1,28 @@
+.hero {
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+    .card {
+      max-width: 555px;
+      h1 {
+        max-width: 555px;
+      }
+      p {
+        max-width: 555px;
+      }
+      img {
+        max-width: 555px;
+        width: 100%;
+      }
+    }
+  }
+  @media only screen and (max-width: 709px) {
+    .cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

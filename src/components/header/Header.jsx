@@ -1,6 +1,30 @@
 import React, { Component } from "react";
 import logo from "../../assets/images/logo.svg";
-const data = ["Home", "About us", "Menu", "Features", "Contact us"];
+import { IoIosHome } from "react-icons/io";
+import { FcAbout } from "react-icons/fc";
+import { MdOutlineMenu, MdFeaturedPlayList, MdContacts } from "react-icons/md";
+const data = [
+  {
+    title: "Home",
+    img: <IoIosHome />,
+  },
+  {
+    title: "About us",
+    img: <FcAbout />,
+  },
+  {
+    title: "Menu",
+    img: <MdOutlineMenu />,
+  },
+  {
+    title: "Features",
+    img: <MdFeaturedPlayList />,
+  },
+  {
+    title: "Contact us",
+    img: <MdContacts />,
+  },
+];
 
 export class Header extends Component {
   render() {
@@ -15,12 +39,17 @@ export class Header extends Component {
               <div className="nav__links">
                 {data?.map((el, inx) => (
                   <a href="#" key={inx} className="nav__link">
-                    {el}
+                    {el.title}
                   </a>
                 ))}
               </div>
             </div>
-            <button className="nav__btn">Booking Now</button>
+            <div className="nav__btns">
+              <button className="nav__btn">Booking Now</button>
+              <button className="menu">
+                <MdOutlineMenu />
+              </button>
+            </div>
           </nav>
         </div>
       </header>
