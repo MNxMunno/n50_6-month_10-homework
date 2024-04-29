@@ -41,6 +41,10 @@
         border-radius: 75px 10px 10px 10px;
         overflow: hidden;
         border: 2px solid #eee;
+        transition: 0.2s linear;
+        &:hover {
+          box-shadow: 3px 3px 5px rgba(150, 150, 150, 0.2);
+        }
         img {
           width: 100%;
           object-fit: cover;
