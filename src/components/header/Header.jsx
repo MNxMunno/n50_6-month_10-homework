@@ -38,9 +38,14 @@ export class Header extends Component {
               </a>
               <div className="nav__links">
                 {data?.map((el, inx) => (
-                  <a href="#" key={inx} className="nav__link">
-                    {el.title}
-                  </a>
+                  <div className="links" key={inx}>
+                    <a href="#" className="nav__link">
+                      {el.title}
+                    </a>
+                    <a href="#" className="nav___btn">
+                      {el.img}
+                    </a>
+                  </div>
                 ))}
               </div>
             </div>
