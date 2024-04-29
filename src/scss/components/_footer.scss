@@ -1,0 +1,53 @@
+footer {
+  background: #150c01;
+  padding: 137px 0 104px;
+  .cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+    .card {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      h2 {
+        font-family: Philosopher;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20.16px;
+        text-align: left;
+        color: #fff;
+      }
+      a {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+        text-align: left;
+        color: #fff;
+        transition: 0.2s;
+        &:hover {
+          color: #ba6702;
+        }
+      }
+      .links {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        a {
+          img {
+            width: 32px;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 676px) {
+    .cards {
+      justify-content: center;
+    }
+  }
+}
