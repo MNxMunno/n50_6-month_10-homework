@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Hero from "../hero/Hero";
 import Feature from "../feature/Feature";
+import About from "../about/About";
 
 export class Main extends Component {
   render() {
@@ -8,6 +9,7 @@ export class Main extends Component {
       <main>
         <Hero />
         <Feature />
+        <About />
       </main>
     );
   }

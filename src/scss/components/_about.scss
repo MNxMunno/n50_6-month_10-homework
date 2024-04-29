@@ -1,0 +1,67 @@
+.about {
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    .card {
+      img {
+        width: 100%;
+      }
+      .title {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        text-align: left;
+        color: #dc780b;
+        padding-bottom: 10px;
+      }
+      h2 {
+        max-width: 487px;
+        font-family: Philosopher;
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 40.63px;
+        text-align: left;
+        color: #150c01;
+      }
+      p {
+        max-width: 487px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #150c01;
+        padding: 30px 0;
+      }
+      .about__btn {
+        background: #dc780b;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        text-align: left;
+        color: #fff;
+        transition: 0.2s;
+        padding: 12px 30px;
+        border-radius: 8px;
+        border: 1px solid #dc780b;
+
+        &:hover {
+          background: #fff;
+          color: #dc780b;
+          border: 1px solid #dc780b;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 898px) {
+    .cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
