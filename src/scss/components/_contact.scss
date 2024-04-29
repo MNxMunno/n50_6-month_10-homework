@@ -27,7 +27,7 @@
       grid-template-columns: 0.6fr 0.1fr;
       justify-content: center;
       align-items: center;
-      position: relative;
+      //   position: relative;
       input {
         outline: none;
         padding: 20px;
@@ -41,7 +41,7 @@
         border-radius: 8px;
       }
       button {
-        position: absolute;
+        // position: absolute;
         border-radius: 8px;
         background: #dc780b;
         padding: 20px 57px;
@@ -52,6 +52,13 @@
         text-align: center;
         color: #fff;
         right: 15%;
+      }
+    }
+  }
+  @media only screen and (max-width: 686px) {
+    .content {
+      form {
+        display: none;
       }
     }
   }
