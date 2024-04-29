@@ -1,0 +1,69 @@
+.feature {
+  padding: 115px 0 108px;
+  .content {
+    .title_text {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18.75px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      color: #dc780b;
+    }
+    h2 {
+      font-family: Philosopher;
+      font-size: 31.25px;
+      font-weight: 700;
+      line-height: 35px;
+      text-align: center;
+      color: #150c01;
+      padding: 7px 0 30px;
+    }
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 14px;
+      gap: 20px;
+      flex-wrap: wrap;
+      .card {
+        p {
+          max-width: 300px;
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+          color: #150c01;
+        }
+        h2 {
+          padding: 33px 0 15px;
+        }
+        .img {
+          background: #8fa6326c;
+          margin: auto;
+          width: 88px;
+          height: 88px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 44px;
+            background: transparent;
+
+            margin: auto;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 980px) {
+    .content {
+      .cards {
+        justify-content: center;
+      }
+    }
+  }
+}

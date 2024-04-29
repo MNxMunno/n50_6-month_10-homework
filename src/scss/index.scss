@@ -1,7 +1,21 @@
+@font-face {
+  font-family: Philosopher;
+  src: url(.././assets/fonts/Philosopher-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(.././assets/fonts/Roboto-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -23,6 +37,7 @@ button {
 @import "../scss/components/header";
 @import "../scss/components/footer";
 @import "../scss/components/hero";
+@import "../scss/components/feature";
 
 main {
   padding-top: 110px;

@@ -14,6 +14,10 @@ export class Hero extends Component {
                 Business. You need not only Just Food Stalls with Persons but
                 also specialized equipment,
               </p>
+              <div className="hero__btns">
+                <button className="hero_btn">Order Now</button>
+                <button className="hero_btn">Food Details</button>
+              </div>
             </div>
             <div className="card">
               <img src={hero} alt="" />
